@@ -12,25 +12,18 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
-        // output(worker.doYourJob());
-        // output(worker.fly());
-        // output("-------------------------")
-
-
-        // output(drone.doYourJob());
-        // output(drone.fly());
-        // output("-------------------------")
-
 
         
     }
 
-
-    private static void pollObj(Queen obj){
+    // 2.Iteration: Polymorphie
+    private static void pollObj(HoneyBee obj){
         output(obj.doYourJob());
         output(obj.fly());
         output("-------------------------");
     }
+
+    
 
    
     private static void output(String outputStr) {
